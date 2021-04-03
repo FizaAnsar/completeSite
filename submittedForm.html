@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUBMITTED FORM</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <style>
+        body {
+
+            background-color:  #2FC874;
+        margin-top:50px;
+        background-position: center top;
+        background-size: cover;
+
+       
+        }
+
+
+        .form_div {
+
+            width: 400px;
+            border: 3px solid #fff;
+            height: 550px;
+            border-top-right-radius: 30px;
+
+            border-bottom-left-radius: 30px;
+
+
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input,
+        textarea,
+        button {
+            margin: 8px 0px;
+        }
+
+        input,
+        textarea {
+            width: 60%;
+            padding: 8px;
+            color: white;
+            /* border-radius: 8px; */
+            background-color: transparent;
+        }
+
+        ::placeholder {
+            color: white;
+        }
+
+        .submit {
+            margin-top: 20px;
+            padding: 8px;
+
+            color: white;
+            border-radius: 25px;
+            ;
+            border: 4px solid white;
+        }
+
+        .custom_txt {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            outline: none;
+            border-bottom: 1px solid white;
+        }
+
+        .heading_txt {
+            text-align: center;
+            color: white;
+            font-size: 28px;
+            letter-spacing: 10px;
+            font-weight: 100px !important;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div class="container"></div>
+    <div class="row">
+        <div class="col-lg-6">
+
+            <h1 class="text-center mt-5 text-light">
+                Why Your Info is important!</h1>
+            <p class="text-gry mt-3 ml-5 mr-5 text-justify ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ex dui, dictum ut tincidunt id,
+                aliquam id libero. Nullam tempor urna mollis ante lobortis maximus. Integer id nulla nec velit porttitor
+                euismod. Donec vel sem bibendum, blandit massa accumsan, posuere urna. Proin tortor sem, finibus eget
+                gravida ac, ultricies id eros. Donec mattis suscipit lorem, eu interdum justo ultricies id. Praesent mi
+                urna, consequat vitae dui nec, ultricies laoreet quam. Morbi gravida vehicula auctor. Curabitur urna
+                turpis, dignissim vel erat ac, placerat dignissim eros. Nulla vel nisi tristique arcu iaculis convallis
+                ut id metus. Nullam placerat lorem ac dapibus accumsan. Curabitur vitae consectetur nibh. Phasellus sit
+                amet sapien diam. Sed ac ornare est.
+
+            </p>
+        </div>
+        <div class="col-lg-6 ">
+            <center>
+                <div class="form_div">
+                    <p class="heading_txt mt-4">CONTACT US</p>
+                    <form action="submittedForm.html" method="post">
+                        <input type="text" class="custom_txt" placeholder="First Name" name="firstName" required>
+                        <input type="text" class="custom_txt" placeholder="Last Name" name="lastName" required>
+                        <input type="Email" class="custom_txt" placeholder="Email" name="email" required>
+                        <textarea name="message" class="custom_txt" placeholder="Message" rows="4" name="msg"
+                            required></textarea>
+                        <input type="submit" name="submit" class="submit">
+                    </form>
+                </div>
+            </center>
+
+
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
